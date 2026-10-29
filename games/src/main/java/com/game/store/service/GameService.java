@@ -1,7 +1,7 @@
 package com.game.store.service;
 
-import com.game.store.model.entity.Studio;
-import com.game.store.model.entity.Game;
+import com.game.store.model.Studio;
+import com.game.store.model.Game;
 import com.game.store.repository.GameRepository;
 import com.game.store.repository.StudioRepository;
 import org.springframework.stereotype.Service;

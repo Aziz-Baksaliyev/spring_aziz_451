@@ -1,6 +1,6 @@
 package com.game.store.controller;
 
-import com.game.store.model.entity.Studio;
+import com.game.store.model.Studio;
 import com.game.store.service.StudioService;
 import org.springframework.web.bind.annotation.*;
 

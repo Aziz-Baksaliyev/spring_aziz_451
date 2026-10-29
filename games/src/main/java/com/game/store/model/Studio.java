@@ -1,4 +1,4 @@
-package com.game.store.model.entity;
+package com.game.store.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

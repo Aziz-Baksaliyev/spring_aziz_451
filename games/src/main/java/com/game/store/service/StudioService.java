@@ -1,6 +1,7 @@
 package com.game.store.service;
 
-import com.game.store.model.entity.Studio;
+import com.game.store.model.Studio;
+import com.game.store.model.dto.studio.StudioResponse;
 import com.game.store.repository.StudioRepository;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +16,7 @@ public class StudioService {
         this.studioRepository = studioRepository;
     }
 
-    public List<Studio> getAllStudios() {
+    public List<StudioResponse> getAllStudios() {
         return studioRepository.findAll();
     }
 

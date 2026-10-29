@@ -1,6 +1,6 @@
 package com.game.store.repository;
 
-import com.game.store.model.entity.Studio;
+import com.game.store.model.Studio;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
